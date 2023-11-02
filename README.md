@@ -3,8 +3,8 @@ Elchupanebrey Infra repository
 
 # Cloud Bastion Task
 
-bastion_IP:158.160.35.235
-someinternalhost_IP: 10.128.0.23
+bastion_IP:51.250.72.57
+someinternalhost_IP: 10.128.0.8
 Подключение к someinternalhost в одну команду:
 `ssh -i ~/.ssh/appuser -A -J  appuser@158.160.35.235 appuser@10.128.0.23`
 Подключение к someonternalhost командой ssh someinternalhost:
