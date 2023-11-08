@@ -18,6 +18,18 @@ someinternalhost_IP = 10.128.0.8
 	IdentityFile ~/.ssh/appuser
    ```
 # VPN Task
+
 Добавлено:
- setupvpn.sh для установки Pritunl VPN server на Ubuntu 22.04
- cloud-bastion.ovpn для подключения к нему
+setupvpn.sh для установки Pritunl VPN server на Ubuntu 22.04
+cloud-bastion.ovpn для подключения к нему
+
+# Cloud TestApp Task
+
+testapp_IP = 158.160.51.132
+testapp_port = 9292
+
+Добавлено:
+install_ruby.sh - скрипт для установки Ruby
+install_mongodb.sh - скрипт для установки MongoDB
+deploy.sh - скрипт для деплоя приложения
+metadata.yaml - метаданные для деплоя приложения при создании ВМ
